@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+  font-weight: 500;
+}
+
+.navig {
+  height: 88px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navig .navbar-box-ref ul li {
+  font-size: 16px;
+}
+.navig .navbar-box-button-back {
+  background-color: rgb(52, 97, 255);
+  width: 133px;
+  height: 52px;
+  border-radius: 70px;
+}
+.navig .navbar-box-button-back a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.hero {
+  height: 941px;
+}/*# sourceMappingURL=style.css.map */

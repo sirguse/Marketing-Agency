@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: 'General Sans', sans-serif;   
+    font-weight: 500;                                       
+}
+
+.navig{
+    height:88px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    .navbar-box{
+        &-ref{
+            ul{
+            
+                li{
+                    
+                    font-size: 16px;
+                }
+            }
+        }
+        &-button{
+            &-back{
+                background-color:rgba(52, 97, 255, 1) ;
+                width:133px;
+                height:52px;
+                border-radius: 70px;
+                a{
+                    font-size: 16px;
+                    color:rgba(255, 255, 255, 1);
+                }
+            }
+        }
+    }
+}
+
+
+
+.hero{
+    height:941px;
+}
