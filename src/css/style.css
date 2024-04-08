@@ -10,6 +10,7 @@ body {
 }
 
 .navig {
+  background-color: rgb(255, 255, 255);
   height: 88px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -28,5 +29,44 @@ body {
 }
 
 .hero {
+  position: relative;
   height: 941px;
+}
+.hero-section-left {
+  height: 850px;
+}
+.hero-section-left-text-head {
+  width: 518px;
+  height: 356px;
+}
+.hero-section-left-text-head h1 {
+  font-size: 96px;
+  line-height: 98.5px;
+  letter-spacing: -4px;
+}
+.hero-section-left-text-small {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.hero-section-left-form .holder input {
+  width: 339px;
+  height: 64px;
+  border-radius: 37px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hero-section-left-form .btn button {
+  background-color: rgb(52, 97, 255);
+  color: rgb(255, 255, 255);
+  height: 64px;
+  width: 146px;
+  border-radius: 70px;
+}
+
+.companies {
+  height: 552px;
+  background-color: rgb(250, 250, 250);
+}
+.companies-box-text h1 {
+  font-size: 36px;
+  letter-spacing: -1px;
 }/*# sourceMappingURL=style.css.map */

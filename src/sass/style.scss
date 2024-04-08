@@ -10,8 +10,10 @@ body{
 }
 
 .navig{
+    background-color:rgba(255, 255, 255, 1) ;
     height:88px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
     .navbar-box{
         &-ref{
             ul{
@@ -40,5 +42,61 @@ body{
 
 
 .hero{
+    position:relative;
     height:941px;
+    &-section{
+        &-left{
+            height:850px;
+            &-text{
+                
+                &-head{
+                    
+                    width:518px;
+                    height:356px;
+                    h1{
+                        font-size:96px;
+                        line-height: 98.5px;
+                        letter-spacing: -4px;
+                    }
+                }
+                &-small{
+                    font-size: 20px;
+                    color:rgba(0, 0, 0, 0.6);
+                }
+            }
+            &-form{
+                .holder{
+                    input{
+                        width:339px;
+                        height:64px;
+                        border-radius: 37px;
+                        border:1px solid rgba(0, 0, 0, 0.2);
+                    }
+                }
+                .btn{
+                    button{
+                        background-color: rgba(52, 97, 255, 1);
+                        color:rgba(255, 255, 255, 1);
+                        height:64px;
+                        width:146px;
+                        border-radius: 70px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.companies{
+    
+    height:552px;
+    background-color: rgba(250, 250, 250, 1);
+    &-box{
+        &-text{
+            h1{
+                font-size: 36px;;
+                letter-spacing: -1px;
+            }
+        }
+    }
 }

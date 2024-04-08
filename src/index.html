@@ -10,58 +10,106 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">      
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-
   </head>
 
   <body>
-    <div class="container-fluid navig fixed-top">
+    <div class="container-fluid navig sticky-top">
       <nav class="h-100">
         <div class="row navbar-box align-items-center h-100">
-          <div class="navbar-box-logo d-flex justify-content-center col-lg-4 col-12">
-            <a href="#"><img src="/src/img/Logo.png" alt="Logo firmy"></a>
+          <div
+            class="navbar-box-logo d-flex justify-content-center col-lg-4 col-12"
+          >
+            <a href="#"><img src="/src/img/Logo.png" alt="Logo firmy" /></a>
           </div>
 
-          <div class="navbar-box-ref col-lg-4 col-12 justify-content-center justify-content-lg-center">
-            <ul class="d-flex justify-content-evenly  list-unstyled align-items-center m-0">
+          <div
+            class="navbar-box-ref col-lg-4 col-12 justify-content-center justify-content-lg-center"
+          >
+            <ul
+              class="d-flex justify-content-evenly list-unstyled align-items-center m-0"
+            >
               <li>How It Works</li>
               <li>Our Work</li>
               <li>Pricing</li>
               <li>About Us</li>
             </ul>
           </div>
-          <div class="navbar-box-button col-12 col-lg-4 d-flex justify-content-center">
-            <div class="navbar-box-button-back d-flex justify-content-center align-items-center ">
+          <div
+            class="navbar-box-button col-12 col-lg-4 d-flex justify-content-center"
+          >
+            <div
+              class="navbar-box-button-back d-flex justify-content-center align-items-center"
+            >
               <a class="text-decoration-none" href="#">Book A Call</a>
             </div>
-            
           </div>
         </div>
       </nav>
-
     </div>
 
-    <div class="container-fluid hero">
-      <section class="hero-section h-100">
-
-        <div class="hero-section-left">
-          <div class="hero-section-left-text">
-
-            <div class="hero-section-left-text-head">
-              <h1></h1>
+    <main>
+      <div class="container-fluid hero h-100">
+        <section class="hero-section h-100 row">
+          <div
+            class="hero-section-left d-flex flex-column justify-content-center align-items-center col-lg-6"
+          >
+            <div class="hero-section-left-text">
+              <div
+                class="hero-section-left-text-head d-flex align-items-center"
+              >
+                <h1>We Take Care Of Your Brand</h1>
+              </div>
+              <div class="hero-section-left-text-small">
+                <p>We care about our work and we care about our clients.</p>
+              </div>
             </div>
-            <div class="hero-section-left-text-small">
 
+            <div class="hero-section-left-form d-flex align-items-center">
+              <div class="holder">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="      Enter Your Email"
+                />
+              </div>
+              <div class="btn">
+                <button>Lets Talk</button>
+              </div>
             </div>
           </div>
-          <div class="hero-section-left-form"></div>
+          <div
+            class="hero-section-right col-lg-6 d-flex justify-content-center"
+          >
+            <div class="hero-section-right-imghold pt-lg-5 pb-md-5">
+              <img
+                src="/src/img/main.png"
+                alt="Zdjecie usmiechnietych ludzi oraz ikon"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="container-fluid companies">
+      <div class="row companies-box">
+        <div class="companies-box-text">
+          <h1 class="text-center">Companies We Work With</h1>
+        </div>
+        <div class="companies-box-images">
+          <div class="companies-box-images-firstrow">
+            <img src="/src/img/first-row.png" alt="Loga najwiekszych firm">
+          </div>
+          <div class="companies-box-images-secondrow">
+            <img src="/src/img/second-row.png" alt="">
+          </div>
 
         </div>
-      </section>
+      </div>
     </div>
-
-    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
