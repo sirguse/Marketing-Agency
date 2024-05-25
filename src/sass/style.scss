@@ -1,97 +1,140 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'General Sans', sans-serif;   
-    font-weight: 500;                                       
+body {
+  font-family: "General Sans", sans-serif;
+  font-weight: 500;
 }
 
-.navig{
-    background-color:rgba(255, 255, 255, 1) ;
-    height:88px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    
-    .navbar-box{
-        &-ref{
-            ul{
-            
-                li{
-                    
-                    font-size: 16px;
-                }
-            }
+.navig {
+  background-color: rgba(255, 255, 255, 1);
+  height: 88px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+  .navbar-box {
+    &-ref {
+      ul {
+        li {
+          font-size: 16px;
         }
-        &-button{
-            &-back{
-                background-color:rgba(52, 97, 255, 1) ;
-                width:133px;
-                height:52px;
-                border-radius: 70px;
-                a{
-                    font-size: 16px;
-                    color:rgba(255, 255, 255, 1);
-                }
-            }
-        }
+      }
     }
-}
-
-
-
-.hero{
-    position:relative;
-    height:941px;
-    &-section{
-        &-left{
-            height:850px;
-            &-text{
-                
-                &-head{
-                    
-                    width:518px;
-                    height:356px;
-                    h1{
-                        font-size:96px;
-                        line-height: 98.5px;
-                        letter-spacing: -4px;
-                    }
-                }
-                &-small{
-                    font-size: 20px;
-                    color:rgba(0, 0, 0, 0.6);
-                }
-            }
-            &-form{
-                .holder{
-                    input{
-                        width:339px;
-                        height:64px;
-                        border-radius: 37px;
-                        border:1px solid rgba(0, 0, 0, 0.2);
-                    }
-                }
-                .btn{
-                    button{
-                        background-color: rgba(52, 97, 255, 1);
-                        color:rgba(255, 255, 255, 1);
-                        height:64px;
-                        width:146px;
-                        border-radius: 70px;
-                        border:1px solid rgba(52, 97, 255, 1);
-                    }
-                }
-            }
+    &-button {
+      &-back {
+        background-color: rgba(52, 97, 255, 1);
+        height: 52px;
+        width: 133px;
+        border-radius: 70px;
+        a {
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
         }
-        
+      }
     }
+  }
 }
-.companies{
-    
-    height:552px;
-    background-color: rgba(250, 250, 250, 1);
-    
+
+.hero {
+  position: relative;
+  height: 941px;
+  &-section {
+    &-left {
+      height: 850px;
+      &-text {
+        &-head {
+          width: 518px;
+          height: 356px;
+          h1 {
+            font-size: 96px;
+            line-height: 98.5px;
+            letter-spacing: -4px;
+          }
+        }
+        &-small {
+          font-size: 20px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+      &-form {
+        .holder {
+          input {
+            width: 339px;
+            height: 64px;
+            border-radius: 37px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+          }
+        }
+        .btn {
+          button {
+            background-color: rgba(52, 97, 255, 1);
+            color: rgba(255, 255, 255, 1);
+            height: 64px;
+            width: 146px;
+            border-radius: 70px;
+            border: 1px solid rgba(52, 97, 255, 1);
+          }
+        }
+      }
+    }
+  }
 }
+
+.commit {
+  height: 536px;
+}
+
+.companies {
+  height: 552px;
+  background-color: rgba(250, 250, 250, 1);
+  h1 {
+    padding-top: 78px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    padding-top: 150px;
+  }
+}
+
+
+  &-box {
+    &-first {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-images {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+    &-second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-images {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+  }
+
+
+.navig {
+  height: 130px;
+  .navbar-box {
+    &-ref {
+      ul {
+        li {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
 
